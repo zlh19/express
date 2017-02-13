@@ -16,7 +16,6 @@ app.engine('ejs',ejs.__express);
 
 app.set('view engine', 'ejs');
 
-
  
 //设置静态
 app.use(express.static(__dirname+'/assets'))
